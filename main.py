@@ -13,3 +13,6 @@ def hello_world():
         return "Rekruto! Давай дружить!"
 
     return f"Hello {args['name']} ! {args['message'] } "
+
+if __name__=="__main__":
+    app.run(debug = False, host = '0.0.0.0.')
