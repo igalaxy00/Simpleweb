@@ -10,6 +10,6 @@ def hello_world():
     message = args.get('message')
 
     if not name and not message:
-        return "Student! Давай дружить!"
+        return "Rekruto! Давай дружить!"
 
-    return f"Hello {args['name']} ! {args['message'] } " 
+    return f"Hello {args['name']} ! {args['message'] } "
