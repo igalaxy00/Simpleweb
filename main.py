@@ -12,4 +12,4 @@ def hello_world():
     if not name and not message:
         return "Student! Давай дружить!"
 
-    return f"Hello {args['name']} ! {args['message'] } "
+    return f"Hello {args['name']} ! {args['message'] } " 
