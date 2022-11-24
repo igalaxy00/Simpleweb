@@ -10,9 +10,6 @@ def hello_world():
     message = args.get('message')
 
     if not name and not message:
-        return "Rekruto! Давай дружить!"
+        return "Student! Давай дружить!"
 
     return f"Hello {args['name']} ! {args['message'] } "
-
-if __name__=="__main__":
-    app.run(debug = False, host = '0.0.0.0.')
